@@ -1,3 +1,3 @@
-def prime?(int)
-  return false if int<=1
+def prime?(num)
+  return false if num<=1
 end
