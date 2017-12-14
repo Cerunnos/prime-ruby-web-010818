@@ -1,10 +1,8 @@
 def prime?(int)
   instance=(2..int).to_a
   prime_numbers=[]
-  bin=[]
   instance.each do|i|
-    if i>(int/2)
-      bin<<i
+    if (int % i) == 0 && i == int
     end
   end
   prime_numbers.include?(int)
