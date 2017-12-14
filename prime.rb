@@ -3,9 +3,10 @@ def prime?(int)
   prime_numbers=[]
   composite_numbers=[]
   instance.each do|i|
-    if (int % i) == 0 && int != i
+    number=i
+    if (int % i) == 0 && int == i
       composite_numbers<<int
-    elsif int != 4
+    elsif 
       prime_numbers<<int
     end
   end
