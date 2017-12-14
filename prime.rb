@@ -5,7 +5,7 @@ def prime?(int)
   instance.each do|i|
     if (int % i) == 0 && i != int
       bin<<int
-    elsif (int % i) == && i == int
+    elsif (int % i) == 0 && i == int
       prime_numbers<<int
     end
   end
