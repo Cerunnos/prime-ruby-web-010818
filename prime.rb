@@ -3,7 +3,7 @@ def prime?(int)
   prime_numbers=[]
   bin=[]
   instance.each do|i|
-    if (i*i)>=int
+    if i>(int/2)
       bin<<i
     elsif(int % i) == 0 && int == i
       prime_numbers<<int
