@@ -5,7 +5,6 @@ def prime?(int)
   instance.each do|i|
     if (int % i) == 0 && int != i
       composite_numbers<<int
-      print composite_numbers
     else
       prime_numbers<<int
     end
