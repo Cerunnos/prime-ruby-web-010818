@@ -10,4 +10,5 @@ def prime?(num)
       prime_numbers<<num
     end
   end
+  prime_numbers.include?(num)
 end
