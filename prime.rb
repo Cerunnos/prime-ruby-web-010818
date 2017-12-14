@@ -5,8 +5,6 @@ def prime?(int)
   instance.each do|i|
     if i>(int/2)
       bin<<i
-    elsif(int % i) == 0 && int == i
-      prime_numbers<<int
     end
   end
   prime_numbers.include?(int)
