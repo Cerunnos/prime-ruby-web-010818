@@ -5,6 +5,9 @@ def prime?(num)
   instance=(2..square_root)
   instance.each do|i|
     if num % i == 0
+      return false
+    else
+      prime_numbers<<num
     end
   end
 end
