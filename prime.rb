@@ -5,7 +5,7 @@ def prime?(int)
   instance.each do|i|
     if (int % i) == 0 && int != i
       composite_numbers<<int
-    else
+    elsif int != 4
       prime_numbers<<int
     end
   end
