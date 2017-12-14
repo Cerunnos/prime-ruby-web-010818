@@ -7,7 +7,7 @@ def prime?(num)
     if num % i == 0
       return false
     else
-      prime_numbers<<num
+      true
     end
   end
   prime_numbers.include?(num)
