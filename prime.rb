@@ -4,6 +4,7 @@ def prime?(num)
   square_root=math.sqrt(num)
   instance=(2..square_root)
   instance.each do|i|
-    
+    if num % i == 0
+    end
   end
 end
